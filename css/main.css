@@ -3,7 +3,7 @@
     width: 100%;
    color: white;
    height:90px;
-   background-color: #2d2f31;
+   background-color: #4B5055;
 }
 #menu-lista{
     
@@ -394,6 +394,14 @@
     height:800px;
     background-position:center center;
 }
+
+.imagen-corporate{
+    margin-top: 60px;
+    background-image: url('../img/2AfterBenedetti.jpg');
+    height:400px;
+    background-position:center center;
+    background-size: 100%;
+}
 .imagen-our{
     margin-top: 60px;
     background-image: url('../img/1AfterLasClementinasI-II\ copy.jpg');
@@ -526,6 +534,18 @@
     float: left;
     width: 100%;
     background-image: url( "../img/15108_Conservatorio_0605.jpg");
+    height:500px;
+    text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    z-index: 1;
+    margin-bottom: 80px;
+}
+.imagen-contact{
+    float: left;
+    width: 100%;
+    background-image: url( "../img/La\ Avenida1.jpg");
     height:500px;
     text-align: center;
 	background-position: center center;
@@ -723,7 +743,7 @@
 #tabla2 .mitad-tabla{
     float: left;
     display: block;
-    width: 30%;
+    width: 35%;
     margin-left: 15%;
 }
 #tabla1 .mitad-tabla2,
@@ -731,8 +751,233 @@
     width: 50%;
 }
 .corporate{
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
 
 }
-.corporate .titulo{
+.corporate .titulo h1 span{
+
+   
+    font-size: 14px;
+    font-weight: normal;
     
+}
+
+.corporate .titulo h1{
+    font-size: 30px;
+    font-weight: bolder;
+    
+   
+
+}
+.corporate .titulo h3{
+    font-size: 15px;
+}
+
+#logos-corporate{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 140px;
+    width: 100%;
+}
+#logos-corporate img{
+   
+    padding: 20px;
+    max-height: 100%;
+
+}
+#logos-corporate img:first-child{
+margin-left: 1%;
+}
+#corporate-img-cotainer{
+    background: #f3f3f3;
+    
+    padding-top: 60px;
+    padding-bottom: 280px;
+    
+  
+}
+
+#corporate-img-cotainer .img-corporate{
+    float: left;
+    width: 18.5%;
+    overflow: hidden;
+    display: block;
+    background-color: black;
+    height: 350px;
+
+}
+#corporate-img-cotainer .img-corporate:first-child{
+ margin-left: 25%;
+
+}
+
+
+#corporate-img-cotainer .img-corporate img{
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+}
+#corporate-img-cotainer .img-corporate p:nth-child(2){
+
+    color: white;
+    position: absolute;
+    font-weight: bolder;
+    z-index: 2;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+#corporate-img-cotainer .img-corporate ul{
+    position: absolute;
+    width: 280px;
+    margin-left: -20px;
+}
+#corporate-img-cotainer .img-corporate ul li{
+    margin-top: 8px;
+    font-size: 11.5px;
+    list-style: none;
+    width: 90%;
+
+}
+#corporate-img-cotainer .img-corporate ul li::before{
+    content: "•";
+    font-size: 1px; /* or whatever */
+    padding-right: 2px;
+}
+#formulario{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 70%;
+    margin-left: 15%;
+}
+#formulario .formulario-form{
+
+    width: 50%;
+    float: left;
+}
+#formulario .formulario-form hr{
+    width: 50px;
+    color: #00A09B;
+    height: 4px;
+    opacity: 1;
+}
+#formulario .formulario-form h3{
+    font-weight: bolder;
+    margin-top: 30px;
+}
+#formulario .formulario-form p{
+    margin-top: -10px;
+    font-size: 10px;
+}
+#formulario .formulario-form .input-form{
+
+    margin-top: 15px;
+    width: 100%;
+}
+#formulario .formulario-form .input-form input[type=text],
+#formulario .formulario-form .input-form textarea
+{
+    background: #f3f3f3;
+    border: 0px;
+width: 95%;
+padding: 5px;
+
+}
+#formulario .formulario-form .input-form input[type=text]::placeholder,
+#formulario .formulario-form .input-form input[type=text]::-moz-placeholder,
+#formulario .formulario-form .input-form textarea::placeholder,
+#formulario .formulario-form .input-form textarea::-moz-placeholder{
+font-size: 11px;
+color: black;
+opacity: 0.8;
+}
+input[type=submit]{
+
+    background-color: #00A09B;
+    margin-top: 10px;
+    color: white;
+    padding-right: 35px;
+    padding-left: 35px;
+    border: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 999px;
+}
+#formulario .formulario-form .input-form textarea{
+
+    height: 100px;
+    resize: none;
+  
+}
+#formulario .mapa-pos{
+
+    float: left;
+    width: 50%;
+
+}
+#formulario .mapa-pos iframe{
+    width: 100%;
+    height: 450px;
+}
+
+footer{
+    background-color: #4B5055;
+    width: 100%;
+    color: white;
+    margin-top: 40px;
+    height: 250px;
+}
+footer div{
+    float: left;
+    margin-top: 40px;
+    width: 20%;
+    margin-left: 20px;
+    display: block;
+}
+footer div:first-child{
+margin-left: 20%;
+}
+
+footer .logo-footer img{
+
+    width: 50%;
+}
+
+footer .logo-footer p{
+    margin-top: 100px;
+    font-size: 9px;
+}
+
+footer .menu-footer ul{
+    list-style: none;
+    margin-top: -10px;
+}
+
+footer .menu-footer ul li a{
+   text-decoration: none;
+   color: white;
+    
+    font-size: 12px;
+}
+
+footer .menu-footer ul li {
+    margin-top: 8px;
+}
+footer .info-footer p{
+
+    font-size: 12px;
+}
+footer .info-footer button{
+    border: 0px;
+    background-color: #00A09B;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 13px;
+    border-radius: 999px;
 }
