@@ -412,15 +412,85 @@
 }
 #imagenes-funds{
     margin-top: 60px;
-    padding: 20px;
+    
     background-color: #F2F2F2;
-    margin-bottom: 60px;
+    width: 100%;
     text-align: center;
 }
-#imagenes-funds img{
-    width: 23%;
-
+#imagenes-funds div{
+    background-color: #F2F2F2;
+    width: 20%;
+    overflow: hidden;
+    float: left;
+    height: 500px;
+    margin-top: 80px;
+    background-color: black;
 }
+#imagenes-funds div:first-child{
+    margin-left: 10%;
+}
+#imagenes-funds div img{
+    height:100%;
+    width: 100%;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 300ms;
+}
+#imagenes-funds div:hover img{
+    opacity: 0.4;
+} 
+
+
+#imagenes-funds2{
+    margin-top: 60px;
+    
+    background-color: #F2F2F2;
+    width: 100%;
+    text-align: center;
+}
+#imagenes-funds2 div{
+    background-color: #F2F2F2;
+    width: 20%;
+    overflow: hidden;
+    float: left;
+    height: 500px;
+    margin-top: 30px;
+    background-color: black;
+    margin-bottom:100px;
+}
+#imagenes-funds2 div:first-child{
+    margin-left: 20%;
+}
+#imagenes-funds2 div img{
+    height:100%;
+    width: 100%;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+
+#imagenes-funds2 div img{
+    height:100%;
+    width: 100%;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 300ms;
+}
+#imagenes-funds2 div:hover img{
+    opacity: 0.4;
+} 
+
+
+#imagenes-funds div p,
+#imagenes-funds2 div p{
+    color: white;
+    font-weight: bolder;
+    position:absolute;
+    margin-top:-60px;
+    margin-left: 30px;
+}
+
 .awards{
     text-align: center;
     margin-top: 80px;
@@ -441,6 +511,8 @@
 }
 #investment{
     text-align: center;
+    background-color: white;
+    
     
     
 }
@@ -487,12 +559,25 @@
     
 }
 .imagen-awars img{
-    width: 100%;
-    max-width: 80%;
+
+    max-width: 70%;
     display: block;
     margin: 0 auto;
     
 }
+
+@media(max-width:1730px){
+    .imagen-awars img{
+
+        max-width: 80%;
+
+        
+    }
+}
+
+
+
+
 .awards hr{
     width: 100%;
     color: black;
@@ -664,7 +749,7 @@
 }
 
 .fondo-reits{
-    height: 500px;
+    height: 80vh;
     background-image: url('../img/GRAFICA-INVESTING-con-fondo.png');
     background-position: center center;
     
@@ -693,7 +778,7 @@
     margin-left: 32%;
 }
 #grafica .menos-l{
-    margin-left: 16%;
+    margin-left: 23%;
 }
 
 #grafica .grafica-1 h3,
@@ -748,7 +833,14 @@
 }
 #tabla1 .mitad-tabla2,
 #tabla2 .mitad-tabla2{
-    width: 50%;
+    float: left;
+    width: 40%;
+}
+
+#tabla1 .mitad-tabla2 img,
+#tabla2 .mitad-tabla2 img{
+
+    width:100%;
 }
 .corporate{
     width: 80%;
